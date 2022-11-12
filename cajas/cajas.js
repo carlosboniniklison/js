@@ -18,7 +18,7 @@ document.addEventListener("load", function() {
 
 function inicial() {
     console.log("A VER ESTO...");
-    let elemento=document.getElementById("contenedor");
+    let elemento=document.getElementById("contenedor","display");
     estiloinicial = window.getComputedStyle(elemento);
 }
 
